@@ -1,0 +1,115 @@
+body {
+    padding:0;
+    margin:0;
+    align-items:center ;
+    justify-content:center ;
+    height:450px;
+    background:linear-gradient(blue, red);
+    display:flex;
+}
+
+.a1{
+    position:absolute ;
+    width:300px;
+    height:300px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 5s linear infinite ;
+}
+
+.a2{
+    position:absolute ;
+    width:270px;
+    height:270px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 6s linear infinite ;
+}
+
+.a3{
+    position:absolute ;
+    width:240px;
+    height:240px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 7s linear infinite ;
+}
+.a4{
+    position:absolute ;
+    width:210px;
+    height:210px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 8s linear infinite ;
+}
+.a5{
+    position:absolute ;
+    width:180px;
+    height:180px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 9s linear infinite ;
+}
+.a6{
+    position:absolute ;
+    width:150px;
+    height:150px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 10s linear infinite ;
+}
+.a7{
+    position:absolute ;
+    width:120px;
+    height:120px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 11s linear infinite ;
+}
+.a8{
+    position:absolute ;
+    width:90px;
+    height:90px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 12s linear infinite ;
+}
+.a9{
+    position:absolute ;
+    width:60px;
+    height:60px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 13s linear infinite ;
+}
+.a10{
+    position:absolute ;
+    width:30px;
+    height:30px;
+    align-item:center ;
+    justify-content:center ;
+    display:flex;
+    animation:a 14s linear infinite ;
+}
+
+@keyframes a{
+    0%{
+        width:0;
+        height:0;
+        box-shadow:inset 0 0 15px 0 black;
+    }
+    100%{
+        width:100%;
+        height:100%;
+        box-shadow:inset 0 0 15px 0 black;
+    }
+}
